@@ -55,6 +55,12 @@ WINDOWS $ type nul > [nombreDelArchivo]
         $ rm [nombreDelArchivo]
 ```
 
+"**Remove Directory**": elimina permanentemente un directorio y todo su contenido.
+
+```bash
+        $ rm -r [nombreDelDirectorio]
+```
+
 > **⚠️ [NOTA]:** ¡CUIDADO! Esto traspasa cualquier "papelera de reciclaje" que exista en el sistema y elimina los archivos PERMANENTEMENTE. Esto no eliminará carpetas. Necesitamos un comando especial para eso.
 
 
